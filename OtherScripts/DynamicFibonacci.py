@@ -1,3 +1,6 @@
+import sys
+
+
 def fibonacci(index: int, memo) -> int:
     if index == 1:
         return 1
@@ -10,5 +13,5 @@ def fibonacci(index: int, memo) -> int:
 
 
 if __name__ == '__main__':
-    d = {}
-    print(fibonacci(998, d))
+    sys.setrecursionlimit(1002)
+    print(fibonacci(1000, {}))
