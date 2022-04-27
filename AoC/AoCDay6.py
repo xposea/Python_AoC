@@ -14,4 +14,3 @@ def count_fish(days: int) -> int:
 if __name__ == '__main__':
     print(count_fish(80))
     print(count_fish(256))
-    
