@@ -42,6 +42,6 @@ def count_sum(include: bool) -> int:  # Find the total number of lines, include 
 
 
 if __name__ == '__main__':
-    file = open("/Users/dylan/Library/CloudStorage/Box-Box/My Box Notes/Python/InputFiles/Day5.txt")
+    file = open("/Users/dylan/Library/CloudStorage/Box-Box/My Box Notes/Python/InputFiles/Day5.txt", "r")
     points = [line.split(" -> ") for line in file]  # Split each line into a list of two points
     print(count_sum(False))  # Boolean includes diagonals
